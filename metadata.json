@@ -1,0 +1,6 @@
+{
+  "name": "Movica",
+  "description": "Panel principal interactivo y elegante para la aplicación de servicios Movica (mototaxi, pedidos, encomiendas y mandados).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

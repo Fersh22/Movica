@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #0EA65C;
+  --color-primary-dark: #087A43;
+  --color-primary-surface: #E6F7EC;
+  --color-accent: #FFC629;
+  --color-bg: #FFFFFF;
+  --color-surface-alt: #F5F6F5;
+  --color-divider: #E9EBE9;
+  --color-ink: #0D0D0D;
+  --color-ink-soft: #5B5F5D;
+  --color-ink-faint: #9AA09D;
+}
+
+.dark {
+  --color-primary: #12C06B;
+  --color-primary-dark: #0EA65C;
+  --color-primary-surface: #0E2919;
+  --color-accent: #FFD452;
+  --color-bg: #0B0E0C;
+  --color-surface-alt: #131A15;
+  --color-divider: #202722;
+  --color-ink: #F5F7F6;
+  --color-ink-soft: #9BA4A0;
+  --color-ink-faint: #606A64;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sora: "Sora", sans-serif;
+
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-primary-surface: var(--color-primary-surface);
+  --color-accent: var(--color-accent);
+  --color-bg: var(--color-bg);
+  --color-surface-alt: var(--color-surface-alt);
+  --color-divider: var(--color-divider);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-ink-faint: var(--color-ink-faint);
+}
+
+/* Custom scrollbar for mobile preview content */
+.content-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.content-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.content-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(13, 13, 13, 0.08);
+  border-radius: 999px;
+}
+
+
